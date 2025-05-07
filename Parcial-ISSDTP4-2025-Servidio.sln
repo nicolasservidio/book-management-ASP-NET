@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcial-ISSDTP4-2025-Servidio", "Parcial-ISSDTP4-2025-Servidio\Parcial-ISSDTP4-2025-Servidio.csproj", "{532E3F10-4169-4651-AE15-4313E80C00FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{532E3F10-4169-4651-AE15-4313E80C00FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532E3F10-4169-4651-AE15-4313E80C00FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532E3F10-4169-4651-AE15-4313E80C00FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532E3F10-4169-4651-AE15-4313E80C00FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89073C16-9EA4-49FC-B661-1342767B4E2D}
+	EndGlobalSection
+EndGlobal
