@@ -35,11 +35,11 @@ Book Management System es una aplicación compacta en ASP.NET Web Forms desarrol
 
 <br>
 
-- Built with ASP.NET Web Forms and C#, using a clean separation between presentation and logic layers. <br> Construido con ASP.NET Web Forms y C#, con separación clara entre capas de presentación y lógica
+- Built with ASP.NET Web Forms and C#, using a clean separation between presentation and logic layers. <br> _Construido con ASP.NET Web Forms y C#, con separación clara entre capas de presentación y lógica._
 
-- Database management via Microsoft SQL Server Management Studio (SSMS). <br> Gestión de bases de datos utilizando Microsoft SQL Server Management Studio (SSMS).
+- Database management via Microsoft SQL Server Management Studio (SSMS). <br> _Gestión de bases de datos utilizando Microsoft SQL Server Management Studio (SSMS)._
 
-- Structured for rapid deployment and easy maintenance in small-scale environments. <br> Estructurado para despliegue rápido y mantenimiento sencillo en entornos reducidos.
+- Structured for rapid deployment and easy maintenance in small-scale environments. <br> _Estructurado para despliegue rápido y mantenimiento sencillo en entornos reducidos._
 
 <br><br>
 
