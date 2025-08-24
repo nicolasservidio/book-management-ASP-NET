@@ -91,7 +91,7 @@ El sistema utiliza Microsoft SQL Server Management Studio (SSMS) para la creaci�
 
 - **Authors:** Stores author names and identifiers. <br> **Autores:** _Almacena nombres e identificadores de autores._
 
-- **- Categories:** - Defines genre or classification types. <br> **Categorías:** _Define géneros o tipos de clasificación._
+- **Categories:** Defines genre or classification types. <br> **Categorías:** _Define géneros o tipos de clasificación._
 
 <br><br>
 
