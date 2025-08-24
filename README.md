@@ -47,13 +47,13 @@ Book Management System es una aplicación compacta en ASP.NET Web Forms desarrol
 
 <br>
 
-- **Books** | **Libros** <br><br> Registration, editing, and deletion of book records. <br>Registro, edición y eliminación de libros.
+- **Books** | **Libros** <br><br> Registration, editing, and deletion of book records. <br>_Registro, edición y eliminación de libros._
 
-- **Authors** | **Autores** <br><br> Basic author management and association with books. <br>Gestión básica de autores y asociación con libros.
+- **Authors** | **Autores** <br><br> Basic author management and association with books. <br>_Gestión básica de autores y asociación con libros._
 
-- **Categories** | **Categorías** <br><br> Classification of books by genre or type. <br>Clasificación de libros por género o tipo.
+- **Categories** | **Categorías** <br><br> Classification of books by genre or type. <br>_Clasificación de libros por género o tipo._
 
-- **Navigation & Layout** | **Navegación y diseño** <br><br> Simple, intuitive page flow for CRUD operations. <br>Flujo de páginas simple e intuitivo para operaciones CRUD.
+- **Navigation & Layout** | **Navegación y diseño** <br><br> Simple, intuitive page flow for CRUD operations. <br>_Flujo de páginas simple e intuitivo para operaciones CRUD._
 
 <br><br>
 
@@ -61,11 +61,11 @@ Book Management System es una aplicación compacta en ASP.NET Web Forms desarrol
 
 <br>
 
-- Functional layout using ASP.NET controls and server-side rendering. <br>Diseño funcional con controles de ASP.NET y renderizado del lado del servidor.
+- Functional layout using ASP.NET controls and server-side rendering. <br>_Diseño funcional con controles de ASP.NET y renderizado del lado del servidor._
 
-- Minimalist design focused on clarity and ease of use. <br>Diseño minimalista enfocado en claridad y facilidad de uso.
+- Minimalist design focused on clarity and ease of use. <br>_Diseño minimalista enfocado en claridad y facilidad de uso._
 
-- Rapid form-based workflows for data entry and update. <br>Flujo rápido basado en formularios para ingreso y actualización de datos.
+- Rapid form-based workflows for data entry and update. <br>_Flujo rápido basado en formularios para ingreso y actualización de datos._
 
 <br><br>
 
@@ -73,12 +73,12 @@ Book Management System es una aplicación compacta en ASP.NET Web Forms desarrol
 
 <br>
 
-EN <br>
+**EN** <br>
 The system uses Microsoft SQL Server Management Studio (SSMS) for database creation, configuration, and maintenance. All tables (Books, Authors, Categories) are manually defined and linked via foreign keys to ensure relational integrity. The database schema is lightweight and optimized for educational or prototype-level use.
 
 <br>
 
-ES <br>
+**ES** <br>
 El sistema utiliza Microsoft SQL Server Management Studio (SSMS) para la creación, configuración y mantenimiento de la base de datos. Todas las tablas (Libros, Autores, Categorías) están definidas manualmente y vinculadas mediante claves foráneas para garantizar la integridad relacional. El esquema de base de datos es liviano y está optimizado para fines educativos o de prototipo.
 
 <br><br>
@@ -87,11 +87,11 @@ El sistema utiliza Microsoft SQL Server Management Studio (SSMS) para la creaci�
 
 <br>
 
-- **Books:** Includes title, author ID, category ID, and publication year. <br> **Libros:** Incluye título, ID de autor, ID de categoría y año de publicación.
+- **Books:** Includes title, author ID, category ID, and publication year. <br> **Libros:** _Incluye título, ID de autor, ID de categoría y año de publicación._
 
-- **Authors:** Stores author names and identifiers. <br> **Autores:** Almacena nombres e identificadores de autores.
+- **Authors:** Stores author names and identifiers. <br> **Autores:** _Almacena nombres e identificadores de autores._
 
-- **- Categories:** - Defines genre or classification types. <br> **Categorías:** Define géneros o tipos de clasificación.
+- **- Categories:** - Defines genre or classification types. <br> **Categorías:** _Define géneros o tipos de clasificación._
 
 <br><br>
 
@@ -99,12 +99,12 @@ El sistema utiliza Microsoft SQL Server Management Studio (SSMS) para la creaci�
 
 <br>
 
-EN <br>
+**EN** <br>
 Every time a CRUD operation is performed —whether adding, editing, or deleting a book, author, or category— the system logs the action to a local text file. This provides a simple audit trail for tracking user interactions and system behavior.
 
 <br>
 
-ES <br>
+**ES** <br>
 Cada vez que se realiza una operación CRUD (ya sea altas, modificaciones o bajas de libros, autores o categorías) el sistema registra la acción en un archivo de texto local. Esto proporciona una trazabilidad básica para monitorear interacciones del usuario y el comportamiento del sistema.
 
 <br><br>
@@ -113,13 +113,13 @@ Cada vez que se realiza una operación CRUD (ya sea altas, modificaciones o baja
 
 <br>
 
-- Timestamp of the operation. <br>Marca de tiempo de la operación.
+- Timestamp of the operation. <br>_Marca de tiempo de la operación._
 
-- Type of action (Create, Update, Delete). <br>Tipo de acción (Alta, Modificación, Baja).
+- Type of action (Create, Update, Delete). <br>_Tipo de acción (Alta, Modificación, Baja)._
 
-- Entity affected (Book, Author, Category). <br>Entidad afectada (Libro, Autor, Categoría.
+- Entity affected (Book, Author, Category). <br>_Entidad afectada (Libro, Autor, Categoría._
 
-- Record details (e.g., title, ID). <br>Detalles del registro (por ejemplo, título, ID).
+- Record details (e.g., title, ID). <br>_Detalles del registro (por ejemplo, título, ID)._
 
 <br><br>
 
@@ -127,13 +127,13 @@ Cada vez que se realiza una operación CRUD (ya sea altas, modificaciones o baja
 
 <br>
 
-- Logs are stored in a dedicated folder within the project directory (e.g., `/Logs/`). <br> - Los registros se almacenan en una carpeta dedicada dentro del directorio del proyecto (por ejemplo, `/Logs/`).
+- Logs are stored in a dedicated folder within the project directory (e.g., `/Logs/`). <br> _Los registros se almacenan en una carpeta dedicada dentro del directorio del proyecto (por ejemplo, `/Logs/`)._
 
-- Each log entry is appended to the file to preserve history. <br> Cada entrada se agrega al archivo para preservar el historial.
+- Each log entry is appended to the file to preserve history. <br> _Cada entrada se agrega al archivo para preservar el historial._
 
 <br>
 
-> This feature is ideal for educational QA, debugging, or internal audit simulation.
+> This feature is ideal for educational QA, debugging, or internal audit simulation. <br><br>
 > Esta funcionalidad es ideal para QA educativo, depuración o simulación de auditoría interna.
 
 <br><br>
@@ -142,11 +142,11 @@ Cada vez que se realiza una operación CRUD (ya sea altas, modificaciones o baja
 
 <br>
 
-- Clear naming conventions. <br>Convenciones de nombres claras.
+- Clear naming conventions. <br>_Convenciones de nombres claras._
 
-- Logical structure for maintainability and expansion. <br>Estructura lógica para mantenimiento y expansión.
+- Logical structure for maintainability and expansion. <br>_Estructura lógica para mantenimiento y expansión._
 
-- Designed for educational or prototype-level use cases. <br>Diseñado para casos educativos o de prototipo.
+- Designed for educational or prototype-level use cases. <br>_Diseñado para casos educativos o de prototipo._
 
 <br><br>
 
@@ -154,11 +154,11 @@ Cada vez que se realiza una operación CRUD (ya sea altas, modificaciones o baja
 
 <br>
 
-- Manual validation of CRUD operations and navigation flow. <br>Validación manual de operaciones CRUD y flujo de navegación.
+- Manual validation of CRUD operations and navigation flow. <br>_Validación manual de operaciones CRUD y flujo de navegación._
 
-- Error handling for basic form inputs and data integrity. <br>Manejo de errores en formularios básicos y validación de integridad.
+- Error handling for basic form inputs and data integrity. <br>_Manejo de errores en formularios básicos y validación de integridad._
 
-- Lightweight footprint ideal for quick demonstrations or internal tools. <br>Huella ligera ideal para demostraciones rápidas o herramientas internas
+- Lightweight footprint ideal for quick demonstrations or internal tools. <br>_Huella ligera ideal para demostraciones rápidas o herramientas internas._
 
 <br><br>
 
@@ -166,11 +166,11 @@ Cada vez que se realiza una operación CRUD (ya sea altas, modificaciones o baja
 
 <br>
 
-- Completed in a focused sprint over a few hours. <br>Completado en un sprint enfocado de pocas horas.
+- Completed in a focused sprint over a few hours. <br>_Completado en un sprint enfocado de pocas horas._
 
-- Prioritized simplicity, clarity, and functional completeness. <br>Se priorizó la simplicidad, claridad y completitud funcional.
+- Prioritized simplicity, clarity, and functional completeness. <br>_Se priorizó la simplicidad, claridad y completitud funcional._
 
-- Demonstrates proficiency in ASP.NET and C# for small-scale web applications. <br>Demuestra competencia en ASP.NET y C# para aplicaciones web pequeñas.
+- Demonstrates proficiency in ASP.NET and C# for small-scale web applications. <br>_Demuestra competencia en ASP.NET y C# para aplicaciones web pequeñas._
 
 ---
 
@@ -210,12 +210,12 @@ _aquí_
 
 <br>
 
-EN <br>
+**EN** <br>
 This project is built using a classic ASP.NET Web Forms architecture, ideal for demonstrating CRUD operations, modular design, and basic logging - among other things. It integrates front-end and back-end components with a focus on maintainability and educational clarity.
 
 <br>
 
-ES <br>
+**ES** <br>
 Este proyecto está construido con una arquitectura clásica de ASP.NET Web Forms, ideal para demostrar operaciones CRUD, diseño modular y registro básico, entre otras cosas. Integra componentes de frontend y backend con enfoque en mantenibilidad y claridad educativa.
 
 <br><br>
